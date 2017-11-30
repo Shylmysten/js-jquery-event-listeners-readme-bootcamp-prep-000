@@ -13,7 +13,7 @@ function getIt() {
 function frameIt() {
   $('img').on('load', function() {
     $('img').attr({class: "tasty"});
-  });e
+  });
 
 // $('img').on('load', $('img' ).attr( { class: "tasty"} ));
 }
